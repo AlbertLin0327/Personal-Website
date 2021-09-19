@@ -87,8 +87,8 @@ const App = () => {
                     component={() => <Home ref={titleRef} />}
                 />
 
-                <Route path="/blog" component={Blog} />
-                <Route path="/blog/:id" component={BlogPost} />
+                {/* <Route path="/blog" component={Blog} />
+                <Route path="/blog/:id" component={BlogPost} /> */}
 
                 <Footer>
                     {getInTouch.show && (

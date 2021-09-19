@@ -65,6 +65,7 @@ const repos = {
     gitHubUsername: "AlbertLin0327", //i.e."johnDoe12Gh"
     reposLength: 0,
     specificRepos: [
+        "QEF-Backtesting-System",
         "Least-Square-Monte-Carlo",
         "ItC_Python_Crawler",
         "Black-Scholes-Option",
@@ -147,7 +148,7 @@ const experiences = {
 
 // Blog SECTION
 const blog = {
-    show: true,
+    show: false,
 };
 
 export {
